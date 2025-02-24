@@ -539,10 +539,22 @@ footer::before {
         height: 50vh;
         padding: 25px;
         flex-direction: column;
+        margin-top: 30px;
+    }
+    .logo {
+        font-size: 15px;
     }
     .hero-image-container {
         width: 180px;
         height: 180px;
+        margin-top: 30px;
+    }
+    .hero-text h1 {
+        font-size: 1.6rem;
+    }
+    .hero-image-container {
+        width: 150px;
+        height: 150px;
         margin-top: 30px;
     }
     header {
@@ -560,5 +572,22 @@ footer::before {
     }
     .social-links a {
         margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-container {
+        flex-direction: column;
+    }
+    .hero-text {
+        min-width: 100px;
+    }
+    .hero-text h1 {
+        font-size: 1rem;
+    }
+    .hero-image-container {
+        width: 140px;
+        height: 140px;
+        margin-top: 20px;
     }
 }
