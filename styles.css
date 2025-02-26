@@ -452,6 +452,17 @@ footer::before {
 
 /* Responsive Adjustments */
 
+@media (max-width: 1024px) {
+    .hero-container {
+        height: 45vh;
+    }
+    .hero-image-container {
+        width: 200px;
+        height: 200px;
+        margin-top: 30px;
+    }
+}
+
 @media (max-width: 768px) {
     .hero-container {
         padding: 20px;
@@ -460,8 +471,8 @@ footer::before {
         justify-content: center;
     }
     .hero-image-container {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         margin-top: 20px;
     }
     .cta-btn {
@@ -482,11 +493,35 @@ footer::before {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 540px) {
+    .hero-container {
+        height: 60vh;
+        padding: 25px;
+        flex-direction: column;
+    }
     .hero-image-container {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
         margin-top: 30px;
+    }
+    .logo {
+        font-size: 10px;
+    }
+    header {
+        padding: 10px 1%;
+    }
+    .nav-links li {
+        margin-left: 15px;
+    }
+    .social-links {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .social-links a {
+        margin-bottom: 15px;
     }
 }
 
@@ -538,38 +573,6 @@ footer::before {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-}
-
-@media (max-width: 540px) {
-    .hero-container {
-        height: 50vh;
-        padding: 25px;
-        flex-direction: column;
-    }
-    .hero-image-container {
-        width: 200px;
-        height: 200px;
-        margin-top: 30px;
-    }
-    .logo {
-        font-size: 10px;
-    }
-    header {
-        padding: 10px 1%;
-    }
-    .nav-links li {
-        margin-left: 15px;
-    }
-    .social-links {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    .social-links a {
-        margin-bottom: 15px;
     }
 }
 

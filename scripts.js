@@ -57,7 +57,7 @@ window.addEventListener("load", () => {
         const progress = card.querySelector('.progress');
         const width = progress.style.width;
         progress.style.width = '0';
-        //progress.style.color = green;
+        progress.style.color = green;
 
         setTimeout(() => {
             progress.style.width = width;
