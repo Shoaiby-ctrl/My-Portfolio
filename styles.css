@@ -498,10 +498,11 @@ footer::before {
         height: 60vh;
         padding: 25px;
         flex-direction: column;
+        width: 100%;
     }
     .hero-image-container {
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
         margin-top: 30px;
     }
     .logo {
