@@ -471,8 +471,8 @@ footer::before {
         justify-content: center;
     }
     .hero-image-container {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         margin-top: 20px;
     }
     .cta-btn {
@@ -542,8 +542,8 @@ footer::before {
         flex-direction: column;
     }
     .hero-image-container {
-        width: 140px;
-        height: 140px;
+        width: 130px;
+        height: 130px;
         margin-top: 30px;
     }
     .projects-grid {
