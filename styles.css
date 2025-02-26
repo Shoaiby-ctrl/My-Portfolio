@@ -542,8 +542,8 @@ footer::before {
         flex-direction: column;
     }
     .hero-image-container {
-        width: 180px;
-        height: 180px;
+        width: 140px;
+        height: 140px;
         margin-top: 30px;
     }
     .projects-grid {
