@@ -13,27 +13,27 @@ window.addEventListener("load", () => {
             bar.style.width = target;
         }, 500);
 
-        const heroImage = document.querySelector(".hero-image");
-        const images = [
-            "IMG_20211209_192751_932.jpg",
-            "DSC_4674.JPG",
-            "DSC_5487.JPG",
-            "IMG_20211220_232819.jpg",
-            "IMG_20220603_234750_408.jpg",
-            "IMG_20220702_052902_137.jpg",
-            "IMG_20221118_202420_609.jpg",
-            "IMG_20230320_200611_943.jpg",
-        ];
+        // const heroImage = document.querySelector(".hero-image");
+        // const images = [
+        //     "IMG_20211209_192751_932.jpg",
+        //     "DSC_4674.JPG",
+        //     "DSC_5487.JPG",
+        //     "IMG_20211220_232819.jpg",
+        //     "IMG_20220603_234750_408.jpg",
+        //     "IMG_20220702_052902_137.jpg",
+        //     "IMG_20221118_202420_609.jpg",
+        //     "IMG_20230320_200611_943.jpg",
+        // ];
 
-        let index = 0;
+        // let index = 0;
 
-        function changeHeroImage() {
-            index = (index + 1) % images.length;
-            heroImage.src = images[index];
-        }
+        // function changeHeroImage() {
+        //     index = (index + 1) % images.length;
+        //     heroImage.src = images[index];
+        // }
 
 
-        setInterval(changeHeroImage, 2000);
+        // setInterval(changeHeroImage, 2000);
     });
 
 

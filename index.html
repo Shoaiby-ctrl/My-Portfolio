@@ -35,7 +35,8 @@
         <div class="hero-container">
             <div class="hero-text">
                 <h1></h1>
-                <p>Software Engineer • Full-Stack Developer • AI Developer</p>
+                <p> • Full-Stack Developer • AI Developer • Laravel Developer<br> • PHP • Python • HTML • CSS
+                </p>
                 <a href="#projects" class="cta-btn">View My Work</a>
             </div>
             <div class="hero-image-container">
@@ -54,20 +55,53 @@
                 realm of AI and Machine Learning, I'm committed to delivering high-quality solutions that push boundaries and provide value to users. I am constantly driven by the idea of creating smarter, more efficient systems that can impact real-world
                 challenges. My ultimate goal is to develop technology that makes a difference in people's lives.
             </p>
+            <br>
             <div class="code-snippet">
                 <code>
-          // Sample code snippet
+          <!-- // Sample code snippet
           function greet(name) {
             console.log(`Hello, ${name}! Welcome to my portfolio.`);
           }
-          greet("Visitor");
+          greet("Visitor"); -->
+
+          function userLikedPortfolio(User $user, Admin $admin) { <br>
+            &nbsp &nbsp &nbsp &nbsp &nbsp  if ($user->likes('portfolio')) { <br>
+            &nbsp &nbsp &nbsp &nbsp &nbsp$admin->notify(new AppreciationNotification("A user loved your portfolio!")); <br>
+            &nbsp } <br>
+        } <br> <br>
+    
+        userLikedPortfolio(new User("Visitor"), new Admin("Shoaib Aamir"));
         </code>
             </div>
+            <br>
             <div class="code-snippet">
                 <code>
           php artisan serve
         </code>
             </div>
+            <br>
+            <div class="code-snippet">
+                <code>
+                    def user_checks_accuracy(ai_model, test_data, user): <br>
+                    &nbsp  &nbsp  &nbsp prediction = ai_model.predict(test_data) <br>
+                    &nbsp  &nbsp  &nbsp accuracy = ai_model.evaluate_accuracy(test_data) <br>
+                        
+                    &nbsp  &nbsp  &nbsp  &nbsp   if accuracy >= 90%: <br>
+                    &nbsp  &nbsp  &nbsp  &nbsp  &nbsp user.share_website("www.ai-website.com") <br>
+                    &nbsp  &nbsp  &nbsp  &nbsp  &nbsp       return "User loved the AI and shared it!" <br>
+                    &nbsp  &nbsp  &nbsp  &nbsp   else: <br>
+                    &nbsp  &nbsp  &nbsp  &nbsp  &nbsp   return "User expected better accuracy." <br> <br>
+                
+                    ai_website_model = AI_Model() <br>
+                    visitor = User("Tech Enthusiast") <br>
+                    result = user_checks_accuracy(ai_website_model, test_data, visitor) <br>
+                    
+                    print(result)   <br>
+                    
+        </code>
+            </div>
+
+
         </div>
     </section>
     <section id="about">
